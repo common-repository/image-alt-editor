@@ -1,0 +1,95 @@
+.image-alt-editor-column .row-actions {
+    left: 0;
+}
+
+.image-alt-editor-label a {
+    cursor: pointer;
+}
+
+.image-alt-editor-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-alt-editor-field {
+    width: 200px;
+}
+
+.image-alt-editor-button {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+
+    width: 40px;
+}
+
+.image-alt-editor-form.is-hidden,
+.image-alt-editor-label.is-hidden {
+    display: none;
+}
+
+.image-alt-editor-form.is-loading button {
+    opacity: 0.5;
+}
+
+.image-alt-editor-form.is-loading button:before {
+    display: block;
+
+    content: "\f463";
+    font-family: dashicons;
+    font-size: 12px;
+    line-height: 0;
+
+    animation: image-alt-editor-spin 2s infinite linear;
+}
+
+@keyframes image-alt-editor-spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.image-alt-editor-form.is-loading button,
+.image-alt-editor-form.is-success button,
+.image-alt-editor-form.is-error button {
+    font-size: 0;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.image-alt-editor-form.is-success button {
+    border-color: #118909 !important;
+    background: rgba(17, 137, 9, 0.1) !important;
+}
+
+.image-alt-editor-form.is-success button:before {
+    display: block;
+
+    color: #118909;
+    content: "\f147";
+    font-family: dashicons;
+    font-size: 17px;
+    line-height: 0;
+}
+
+
+.image-alt-editor-form.is-error button {
+    border-color: #bf000a !important;
+    background: rgba(191, 0, 10, 0.1) !important;
+}
+
+.image-alt-editor-form.is-error button:before {
+    display: block;
+
+    color: #bf000a;
+    content: "\f335";
+    font-family: dashicons;
+    font-size: 17px;
+    line-height: 0;
+}
+
+.image-alt-editor-form span {
+    flex-basis: 100%;
+
+    margin-top: 5px;
+}

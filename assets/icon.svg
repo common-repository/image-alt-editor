@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Wordpress plugin icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="77.6370049%" y1="22.4504471%" x2="23.2081413%" y2="81.583786%" id="linearGradient-1">
+            <stop stop-color="#EAD2CC" offset="0%"></stop>
+            <stop stop-color="#365278" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="256" height="256"></rect>
+        <text id="text-3" font-family="Staatliches-Regular, Staatliches" font-size="64" font-weight="normal" line-spacing="57" fill="#FFFFFF">
+            <tspan x="24" y="128">Image</tspan>
+            <tspan x="24" y="185">Alt</tspan>
+            <tspan x="24" y="242">Editor</tspan>
+        </text>
+        <filter x="-0.9%" y="-2.9%" width="101.8%" height="108.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Wordpress-plugin-icon">
+            <g id="Rectangle">
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <rect stroke="#EAD2CC" stroke-width="7" x="3.5" y="3.5" width="249" height="249"></rect>
+            </g>
+            <g id="Image-Alt-Editor" fill="#FFFFFF" fill-opacity="1">
+                <use filter="url(#filter-4)" xlink:href="#text-3"></use>
+                <use xlink:href="#text-3"></use>
+            </g>
+        </g>
+    </g>
+</svg>
